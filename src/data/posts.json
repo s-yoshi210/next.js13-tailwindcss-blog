@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "next.js13-udemy",
+      "title": "Next.js 13をUdemyで学ぶ",
+      "content": "教材でNext.js13を学んでいます。",
+      "createdAt": "2024/11/11"
+    },
+    {
+      "id": "json-server",
+      "title": "JSONサーバー",
+      "content": "ローカルマシン上にJSONファイルを置くだけで、RESTfulなAPIを作成し、GET、POST、PUT、DELETEなどのHTTPリクエストを使用してデータの取得、作成、更新、削除を行うことができます。",
+      "createdAt": "2024/11/20"
+    },
+    {
+      "id": "relalidate-next.js",
+      "title": "データの再検証",
+      "content": "ローカルマシン上にJSONファイルを置くだけで、RESTfulなAPIを作成し、GET、POST、PUT、DELETEなどのHTTPリクエストを使用してデータの取得、作成、更新、削除を行うことができます。",
+      "createdAt": "2024/11/21"
+    },
+    {
+      "id": "next.js13-test",
+      "title": "next.js13のアップディレクトリについて",
+      "content": "appディレクトリはデフォルトでサーバーサイドレンダリングを行えます。",
+      "currentDatatime": "2024-11-21T08:30:12.305Z"
+    },
+    {
+      "id": "next.js13-ssr",
+      "title": "Next.js13のSSRについて",
+      "content": "SSRは....",
+      "currentDatatime": "2024-11-21T08:32:46.654Z"
+    }
+  ]
+}
