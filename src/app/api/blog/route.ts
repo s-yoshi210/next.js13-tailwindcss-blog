@@ -1,8 +1,7 @@
 import { supabase } from "@/utils/supabaseClient";
-import { NextApiRequest, NextApiResponse } from "next";
 import { NextResponse } from "next/server";
 
-export async function GET(req: Request, res: NextApiResponse) {
+export async function GET() {
   const { data, error } = await supabase.from("posts").select("*");
 
   if (error) {
@@ -12,7 +11,7 @@ export async function GET(req: Request, res: NextApiResponse) {
   return NextResponse.json(data, { status: 200 });
 }
 
-export async function POST(req: Request, res: NextApiResponse) {
+export async function POST(req: Request) {
   const { id, title, content } = await req.json();
 
   const { data, error } = await supabase
